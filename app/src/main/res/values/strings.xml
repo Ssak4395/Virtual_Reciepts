@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Virtual Receipts</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_email_verification">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_image_captured">FullscreenActivity</string>
+    <string name="title_activity_on_image_taken">FullscreenActivity</string>
+    <string name="total_price">Total Price:</string>
+    <string name="title_activity_image_taken">FullscreenActivity</string>
+    <string name="title_activity_chart_bar">chart</string>
+
+    <string name="link_for_jess"><a href="https://www.linkedin.com/in/jess-yao-125a921bb/">Linked In</a></string>
+    <string name="link_for_nabeera"><a href="https://www.linkedin.com/in/nabeera-naeem-13b43215a">Linked In</a></string>
+    <string name="link_for_jack"><a href="https://www.linkedin.com/in/jack-bouman-465305200/">Linked In</a></string>
+    <string name="link_for_sadman"><a href="http://deepalgorithm.net/">Website</a></string>
+    <string name="link_for_marc"><a href="https://www.linkedin.com/in/kohlmann">Linked In</a></string>
+    <string name="title_activity_map">Map</string>
+
+</resources>

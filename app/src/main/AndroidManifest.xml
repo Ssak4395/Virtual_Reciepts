@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="app_.smartreceipt.digitaldocs">
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the "MyLocation" functionality.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+
+    <uses-feature
+        android:name="android.hardware.camera2"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.faketouch"
+        android:required="false" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+
+        <activity
+            android:name=".activities.imageTaken"
+            android:label="@string/title_activity_image_taken" />
+        <activity
+            android:name=".activities.ImageTakenActivity"
+            android:label="FullscreenActivity" />
+        <meta-data
+            android:name="com.google.firebase.ml.vision.DEPENDENCIES"
+            android:value="ocr" />
+        <activity
+            android:name=".activities.GetStartedOne"
+            android:label="@string/title_activity_email_verification" />
+        <activity
+            android:name=".activities.GetStartedSecond"
+            android:label="@string/title_activity_email_verification" />
+        <activity
+            android:name=".activities.GetStartedThree"
+            android:label="@string/title_activity_email_verification" />
+        <activity
+            android:name=".activities.SignUpConfirmationActivity"
+            android:label="@string/title_activity_email_verification" />
+        <activity
+            android:name=".activities.ChartActivity"
+            android:label="@string/title_activity_chart_bar" />
+        <activity
+            android:name=".activities.ReceiptGraphActivity"
+            android:label="@string/title_activity_chart_bar" />
+        <activity
+            android:name=".activities.SignUpActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".activities.EditReceiptActivity"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".activities.SearchActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".activities.HelpActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".activities.LegalActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".activities.ForgotPasswordActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".activities.CameraActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".activities.ProfileUpdateActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".activities.ProfileActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".activities.IndividualReceipt"
+            android:label="Smart Receipts" />
+        <activity
+            android:name=".activities.SettingsActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".activities.GetStartedActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".activities.ReceiptActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".activities.DashboardActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".activities.EditLineItemActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/Base.Theme.AppCompat" /> <!-- optional (needed if default theme has no action bar) -->
+        <activity
+            android:name=".activities.HomeActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

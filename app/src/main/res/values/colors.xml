@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="lineItem1">#F1edf2ff</color>
+    <color name="lineItem2">#FFFFFF</color>
+    <color name="itemFoundColor">#FFCCCB</color>
+
+    <color name="up_trend">#ff0000</color>
+    <color name="down_trend">#00b459</color>
+
+    <color name="tagSelected">#26A69A</color>
+
+    <color name="tags">#D3D3D3</color>
+    <color name="transparent">#00FFFFFF</color>
+
+    <color name="button_color">#24a0ed</color>
+    <color name="toolbar_button_color">#24a0ed</color>
+    <color name="border_color">#898989</color>
+</resources>
